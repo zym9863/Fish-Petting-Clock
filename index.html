@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>摸鱼时钟</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="wave"></div>
+    <div class="container">
+        <h1>摸鱼时钟</h1>
+        <div class="timer">
+            <div class="time-display">
+                <span id="minutes">25</span>:<span id="seconds">00</span>
+            </div>
+            <div class="status" id="status">工作时间</div>
+        </div>
+        <div class="controls" data-component-name="<div />">
+            <button id="start" data-component-name="<button />"><i class="fas fa-play"></i> 开始</button>
+            <button id="pause" disabled="" data-component-name="<button />"><i class="fas fa-pause"></i> 暂停</button>
+            <button id="reset" data-component-name="<button />"><i class="fas fa-redo"></i> 重置</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
